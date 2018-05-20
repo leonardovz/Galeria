@@ -1,0 +1,113 @@
+main
+    font-family: 'Slabo 27px', serif
+    font-size: 18px
+    text-align: center
+    background: #2C2C47
+    .formulario
+        width: 50%
+        margin: 50px
+        margin: 50px auto
+        text-align: left
+        .contenedor-inputs
+            width: 100%
+            margin-bottom: 10px
+            .obligatorio
+                color: red
+                font-size: 18px
+            input[type="text"],input[type="password"]
+                    padding: 15px
+                    margin: 10px 0
+                    font-family: 'Raleway', sans-serif
+                    font-size: 18px
+                    line-height: 18px
+                    border: none
+                    vertical-align: top
+                    width: 100%
+                    border-radius: 3px
+            .terminos
+                text-align: center
+                color: #f1f1f1
+            textarea
+                min-width: 100%
+                max-width: 100%
+                height: 120px
+                max-height: 800px
+                min-height: 150px
+                border-radius: 3px
+                padding: 15px
+            input[type="file"]
+                color: #f1f1f1
+                padding-top: 15px
+            select
+                padding: 15px
+                margin: 10px 0
+                font-family: 'Raleway', sans-serif
+                font-size: 18px
+                line-height: 18px
+                border: none
+                vertical-align: top
+                width: 100%
+                border-radius: 3px
+            
+        .btn-reset
+            margin-top: 15px
+            padding: 15px
+            text-align: center
+            width: 100%
+            max-height: 48px
+            font-size: 24px
+            line-height: 18px
+            background: #B52E28
+            display: inline-block
+            color: #fff
+            cursor: pointer
+            border-radius: 3px
+            &:hover
+                opacity: .8
+        .btn
+            margin-top: 15px
+            padding: 15px
+            text-align: center
+            width: 100%
+            max-height: 48px
+            font-size: 24px
+            line-height: 18px
+            background: #F4EAF5
+            display: inline-block
+            color: #000
+            cursor: pointer
+            border-radius: 3px
+            &:hover
+                opacity: .8
+        .texto-registrate
+            text-align: center
+            a
+                display: block
+                font-size: 18px
+.paginacion
+    margin: 30px 0
+    padding: 30px 0
+    ul
+        list-style: none
+        text-align: center
+        li
+            display: inline-block
+            margin: 0 5 px
+            color: #fff
+            a
+                display: block
+                padding: 10px 20px
+                background: #595959
+                color: #fff
+                &:hover
+                    background: #bb1f35
+                    text-decoration: none
+        .active
+            background: #bb1f35
+            padding: 10px 20px
+        .disabled
+            background: #a8a8a8
+            padding: 10px 20px
+            cursor: not-allowed
+            &:hover
+                background: #a8a8a8
